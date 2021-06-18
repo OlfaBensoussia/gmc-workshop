@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+
+<head>
+     <title>GMC App</title>
+     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	 <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+            <div class="content-body">
+                <div class="success-text">Welcome to <div class="red-success-text">GO MY CODE</div> Event!</div>
+                <div class="next-steps-container">
+                    <div class="next-steps-header">Your first HTML app is up and running</div>
+                </div>
+            </div>
+
+            <div id="calculator">
+
+                <div>
+                    <input id="screen" value="0"><br>
+                </div>
+            
+                <div>
+                    <button onclick="processNumberButton(this.innerHTML)">1</button>
+                    <button onclick="processNumberButton(this.innerHTML)">2</button>
+                    <button onclick="processNumberButton(this.innerHTML)">3</button>
+                    <button onclick="processOperatorButton(this.innerHTML)" class="operator">+</button>
+                </div>
+            
+                <div>
+                    <button onclick="processNumberButton(this.innerHTML)">4</button>
+                    <button onclick="processNumberButton(this.innerHTML)">5</button>
+                    <button onclick="processNumberButton(this.innerHTML)">6</button>
+                    <button onclick="processOperatorButton(this.innerHTML)" class="operator">-</button>
+                </div>
+            
+                <div>
+                    <button onclick="processNumberButton(this.innerHTML)">7</button>
+                    <button onclick="processNumberButton(this.innerHTML)">8</button>
+                    <button onclick="processNumberButton(this.innerHTML)">9</button>
+                    <button onclick="processOperatorButton(this.innerHTML)" class="operator">/</button>
+                </div>
+            
+                <div>
+                    <button onclick="processNumberButton(this.innerHTML)">0</button>
+                    <button onclick="processDecimalButton(this.innerHTML)">.</button>
+                    <button onclick="processOperatorButton(this.innerHTML)" class="operator">x</button>
+                </div>
+            
+                <div>
+                    <button onclick="processResetButton()" class="reset">C</button>
+                    <button onclick="processEqualsButton()" class="eval">=</button>
+                </div>
+            
+            </div>
+            
+            <script type="text/javascript" src="js/calculator.js"></script>
+        </div>
+</body>
+
+</html>

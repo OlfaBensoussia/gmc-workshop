@@ -1,0 +1,135 @@
+html,
+        body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .main-container {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding-top: 6%;
+            font-family: "Segoe UI";
+        }
+
+
+        .success-text {
+            padding-bottom: 10px;
+            font-size: 62px;
+            line-height: 73px;
+        }
+        .red-success-text {
+            font-size: 62px;
+            line-height: 73px;
+            color: red;
+        }
+        .description {
+            font-size: 34px;
+            line-height: 40px;
+        }
+
+        .next-steps-container {
+            padding-top: 50px;
+        }
+
+        .next-steps-header {
+            font-size: 24px;
+            line-height: 28px;
+            padding-bottom: 25px;
+        }
+
+        .step {
+            display: flex;
+            margin: 7px 0px;
+            font-size: 15px;
+            line-height: 21px;
+        }
+		.step-text a {
+            color: white;
+			text-decoration: none;
+        }
+		
+		.step-text a:hover {
+            color: white;
+			text-decoration:underline;
+        }
+
+        .content {
+            box-sizing: border-box;
+            min-width: 700px;
+            max-width: 830px;
+            position: relative;
+            margin: auto;
+        }
+
+        .calculator{
+
+            width: 300px;
+            height: auto;
+        
+            margin: auto;
+            padding: 20px 20px 9px;
+        
+            background: #c2c2c28e;
+            border-radius: 3px;
+            box-shadow: 0px 4px #7b7d7e7e, 0px 10px 15px rgba(0, 0, 0, 0.2);
+        }
+        button{
+
+            width: 60px;
+            height: 36px;
+        
+            background: white(194, 137, 137);
+            border-radius: 3px;
+            box-shadow: 0px 4px rgba(145, 141, 141, 0.2);
+        
+            margin: 0 7px 11px 0;
+        
+            color: #888;
+            line-height: 36px;
+            text-align: center;
+        
+        }
+        button.operator
+        {
+            background: #FFF0F5;
+            margin-right: 0;
+        }
+        button.reset{
+            width: 100px;
+            height: 36px;
+        
+            background: #ff9fa8;
+            box-shadow: 0px 4px #d35f69;
+            color: white;
+        
+        }
+
+        input{
+            height: 40px;
+            width: 262px;
+            margin: 5px;
+        
+            padding: 0 10px;
+        
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+            box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+        
+            /* Typography */
+            font-size: 17px;
+            line-height: 40px;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            text-align: right;
+            letter-spacing: 1px
+        }
+        
+        button:hover {
+            background: #9c89f6;
+            box-shadow: 0px 4px #ac1818;
+            color: white;
+        }
